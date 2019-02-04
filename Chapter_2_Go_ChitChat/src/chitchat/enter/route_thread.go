@@ -1,14 +1,14 @@
-package main
+package enter
 
 import (
 	"fmt"
-	"github.com/sausheong/gwp/Chapter_2_Go_ChitChat/chitchat/data"
+	"chitchat/data"
 	"net/http"
 )
 
 // GET /threads/new
 // Show the new thread form page
-func newThread(writer http.ResponseWriter, request *http.Request) {
+func NewThread(writer http.ResponseWriter, request *http.Request) {
 	_, err := session(writer, request)
 	if err != nil {
 		http.Redirect(writer, request, "/login", 302)
@@ -19,7 +19,7 @@ func newThread(writer http.ResponseWriter, request *http.Request) {
 
 // POST /signup
 // Create the user account
-func createThread(writer http.ResponseWriter, request *http.Request) {
+func CreateThread(writer http.ResponseWriter, request *http.Request) {
 	sess, err := session(writer, request)
 	if err != nil {
 		http.Redirect(writer, request, "/login", 302)
@@ -42,7 +42,7 @@ func createThread(writer http.ResponseWriter, request *http.Request) {
 
 // GET /thread/read
 // Show the details of the thread, including the posts and the form to write a post
-func readThread(writer http.ResponseWriter, request *http.Request) {
+func ReadThread(writer http.ResponseWriter, request *http.Request) {
 	vals := request.URL.Query()
 	uuid := vals.Get("id")
 	thread, err := data.ThreadByUUID(uuid)
@@ -60,7 +60,7 @@ func readThread(writer http.ResponseWriter, request *http.Request) {
 
 // POST /thread/post
 // Create the post
-func postThread(writer http.ResponseWriter, request *http.Request) {
+func PostThread(writer http.ResponseWriter, request *http.Request) {
 	sess, err := session(writer, request)
 	if err != nil {
 		http.Redirect(writer, request, "/login", 302)

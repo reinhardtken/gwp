@@ -1,10 +1,10 @@
-package main
+package enter
 
 import (
+	"chitchat/data"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/sausheong/gwp/Chapter_2_Go_ChitChat/chitchat/data"
 	"html/template"
 	"log"
 	"net/http"
@@ -19,11 +19,11 @@ type Configuration struct {
 	Static       string
 }
 
-var config Configuration
+var Config Configuration
 var logger *log.Logger
 
 // Convenience function for printing to stdout
-func p(a ...interface{}) {
+func P(a ...interface{}) {
 	fmt.Println(a)
 }
 
@@ -42,8 +42,8 @@ func loadConfig() {
 		log.Fatalln("Cannot open config file", err)
 	}
 	decoder := json.NewDecoder(file)
-	config = Configuration{}
-	err = decoder.Decode(&config)
+	Config = Configuration{}
+	err = decoder.Decode(&Config)
 	if err != nil {
 		log.Fatalln("Cannot get configuration from file", err)
 	}
@@ -106,6 +106,8 @@ func warning(args ...interface{}) {
 }
 
 // version
-func version() string {
+func Version() string {
 	return "0.1"
 }
+
+
