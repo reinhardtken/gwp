@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ab977f-efbd-4e64-b8d8-3f6ab6f0478a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/data.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/data_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/setup.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/thread.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/thread_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/data/user_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/public/js/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/route_auth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/route_auth_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/route_main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/route_thread.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/login.layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/new.thread.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/private.navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/private.thread.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/public.navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/public.thread.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/templates/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/chitchat/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="733">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#14#64#0" expanded="true" />
               </folding>
@@ -84,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_thread.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -102,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+            <state relative-caret-position="402">
+              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding>
                 <element signature="e#14#136#0" expanded="true" />
               </folding>
@@ -129,6 +92,8 @@
       <find>github.com/sausheong/gwp/Chapter_2_Go_ChitChat</find>
       <find>p</find>
       <find>config</find>
+      <find>Config</find>
+      <find>layout.html</find>
     </findStrings>
     <dirStrings>
       <dir>C:\workspace\code\github\golang\gwp\Chapter_2_Go_ChitChat\src</dir>
@@ -157,12 +122,12 @@
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/main/main.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/main.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/test.go" />
-        <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/route_main.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_main.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_auth.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/main.go" />
         <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_thread.go" />
+        <option value="$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go" />
       </list>
     </option>
   </component>
@@ -221,6 +186,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chitchat" type="462c0819:PsiDirectoryNode" />
               <item name="enter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gwp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_2_Go_ChitChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chitchat" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +291,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -328,7 +301,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32973504" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994112" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30225712" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -435,19 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-          <folding>
-            <element signature="e#14#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -477,20 +437,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_thread.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="733">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#14#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/route_thread.go">
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Go_ChitChat/src/chitchat/enter/utils.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="402">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

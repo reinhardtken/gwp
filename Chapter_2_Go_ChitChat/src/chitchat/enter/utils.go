@@ -37,7 +37,7 @@ func init() {
 }
 
 func loadConfig() {
-	file, err := os.Open("config.json")
+	file, err := os.Open(`C:\workspace\code\github\golang\gwp\Chapter_2_Go_ChitChat\src\chitchat\enter\config.json`)
 	if err != nil {
 		log.Fatalln("Cannot open config file", err)
 	}
@@ -82,7 +82,7 @@ func parseTemplateFiles(filenames ...string) (t *template.Template) {
 func generateHTML(writer http.ResponseWriter, data interface{}, filenames ...string) {
 	var files []string
 	for _, file := range filenames {
-		files = append(files, fmt.Sprintf("templates/%s.html", file))
+		files = append(files, fmt.Sprintf("C:/workspace/code/github/golang/gwp/Chapter_2_Go_ChitChat/src/chitchat/templates/%s.html", file))
 	}
 
 	templates := template.Must(template.ParseFiles(files...))
